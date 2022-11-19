@@ -37,9 +37,8 @@ select {
 
 body {
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  background-color: white;
 }
+
 
 /*
   8. Avoid text overflows
@@ -61,6 +60,8 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 10px 10px 8px 10px #888888;
+   
   }
 
 .form-control {
@@ -82,10 +83,24 @@ form {
   border-radius: 5px;
   padding: 10px;
   width: 95%;
+  background-color: beige;
+  color: rgb(93, 91, 91);
 }
 
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin-top: 3px;
+  margin-right: 4px;
+  margin-bottom: 3px;
+  margin-left: 4px;
+}
+
+.form-control button
+{
+   width: 95%;
+   background-color:rgb(42, 182, 225) ;
+   border: 2px;
+   border-radius: 5px;
 }
